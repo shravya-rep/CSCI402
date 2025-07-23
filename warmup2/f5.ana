@@ -1,0 +1,961 @@
+
+==== Packets ====
+p1: inter-arrival time should be 11.045ms
+    time in Q1 should be 55.804ms
+    time in Q2 should be 0.018ms
+    should request 98ms of service time
+    time in S2 should be 98.068ms
+    time in system should be 153.941ms
+
+p2: inter-arrival time should be 6.052ms
+    time in Q1 should be 116.547ms
+    time in Q2 should be 0.022ms
+    should request 51ms of service time
+    time in S1 should be 51.066ms
+    time in system should be 167.680ms
+
+p3: inter-arrival time should be 15.015ms
+
+p4: inter-arrival time should be 1.010ms
+    time in Q1 should be 234.078ms
+    time in Q2 should be 0.024ms
+    should request 39ms of service time
+    time in S2 should be 39.044ms
+    time in system should be 273.160ms
+
+p5: inter-arrival time should be 77.069ms
+
+p6: inter-arrival time should be 35.069ms
+
+p7: inter-arrival time should be 26.096ms
+    time in Q1 should be 229.301ms
+    time in Q2 should be 0.023ms
+    should request 12ms of service time
+    time in S1 should be 12.071ms
+    time in system should be 241.425ms
+
+p8: inter-arrival time should be 5.073ms
+
+p9: inter-arrival time should be 1.021ms
+    time in Q1 should be 289.941ms
+    time in Q2 should be 0.019ms
+    should request 53ms of service time
+    time in S2 should be 54.780ms
+    time in system should be 344.755ms
+
+p10: inter-arrival time should be 3.047ms
+
+p11: inter-arrival time should be 31.073ms
+    time in Q1 should be 322.568ms
+    time in Q2 should be 0.019ms
+    should request 24ms of service time
+    time in S1 should be 24.091ms
+    time in system should be 346.708ms
+
+p12: inter-arrival time should be 20.038ms
+
+p13: inter-arrival time should be 9.072ms
+
+p14: inter-arrival time should be 19.079ms
+
+p15: inter-arrival time should be 14.071ms
+    time in Q1 should be 327.082ms
+    time in Q2 should be 0.025ms
+    should request 2ms of service time
+    time in S2 should be 2.034ms
+    time in system should be 329.171ms
+
+p16: inter-arrival time should be 2.025ms
+    time in Q1 should be 458.588ms
+    time in Q2 should be 0.024ms
+    should request 20ms of service time
+    time in S1 should be 20.092ms
+    time in system should be 478.720ms
+
+p17: inter-arrival time should be 56.042ms
+
+p18: inter-arrival time should be 9.070ms
+
+p19: inter-arrival time should be 24.073ms
+    time in Q1 should be 502.902ms
+    time in Q2 should be 0.024ms
+    should request 99ms of service time
+    time in S2 should be 99.079ms
+    time in system should be 602.035ms
+
+p20: inter-arrival time should be 15.026ms
+    time in Q1 should be 554.665ms
+    time in Q2 should be 0.028ms
+    should request 36ms of service time
+    time in S1 should be 36.077ms
+    time in system should be 590.794ms
+
+p21: inter-arrival time should be 33.034ms
+    time in Q1 should be 655.181ms
+    time in Q2 should be 0.032ms
+    should request 47ms of service time
+    time in S1 should be 47.063ms
+    time in system should be 702.293ms
+
+p22: inter-arrival time should be 6.069ms
+    time in Q1 should be 782.660ms
+    time in Q2 should be 0.022ms
+    should request 40ms of service time
+    time in S2 should be 40.073ms
+    time in system should be 822.776ms
+
+p23: inter-arrival time should be 14.031ms
+
+p24: inter-arrival time should be 9.061ms
+    time in Q1 should be 893.071ms
+    time in Q2 should be 0.018ms
+    should request 57ms of service time
+    time in S1 should be 57.084ms
+    time in system should be 950.194ms
+
+p25: inter-arrival time should be 5.063ms
+
+p26: inter-arrival time should be 14.076ms
+
+p27: inter-arrival time should be 4.064ms
+
+p28: inter-arrival time should be 9.056ms
+
+p29: inter-arrival time should be 6.051ms
+
+p30: inter-arrival time should be 100.030ms
+    time in Q1 should be 821.491ms
+    time in Q2 should be 0.025ms
+    should request 99ms of service time
+    time in S2 should be 99.066ms
+    time in system should be 920.611ms
+
+p31: inter-arrival time should be 113.066ms
+
+p32: inter-arrival time should be 19.081ms
+
+p33: inter-arrival time should be 1.033ms
+    time in Q1 should be 755.109ms
+    time in Q2 should be 0.025ms
+    should request 18ms of service time
+    time in S1 should be 19.469ms
+    time in system should be 774.622ms
+
+p34: inter-arrival time should be 2.032ms
+    time in Q1 should be 820.013ms
+    time in Q2 should be 0.019ms
+    should request 12ms of service time
+    time in S1 should be 12.076ms
+    time in system should be 832.126ms
+
+p35: inter-arrival time should be 6.065ms
+
+p36: inter-arrival time should be 46.064ms
+
+p37: inter-arrival time should be 14.036ms
+    time in Q1 should be 887.363ms
+    time in Q2 should be 0.024ms
+    should request 22ms of service time
+    time in S2 should be 22.035ms
+    time in system should be 909.449ms
+
+p38: inter-arrival time should be 22.025ms
+    time in Q1 should be 932.134ms
+    time in Q2 should be 0.025ms
+    should request 40ms of service time
+    time in S1 should be 40.085ms
+    time in system should be 972.264ms
+
+p39: inter-arrival time should be 39.069ms
+
+p40: inter-arrival time should be 39.042ms
+
+p41: inter-arrival time should be 67.069ms
+    time in Q1 should be 853.724ms
+    time in Q2 should be 0.024ms
+    should request 81ms of service time
+    time in S2 should be 81.071ms
+    time in system should be 934.852ms
+
+p42: inter-arrival time should be 59.041ms
+
+p43: inter-arrival time should be 22.072ms
+    time in Q1 should be 839.145ms
+    time in Q2 should be 0.037ms
+    should request 66ms of service time
+    time in S1 should be 66.068ms
+    time in system should be 905.523ms
+
+p44: inter-arrival time should be 5.081ms
+    time in Q1 should be 967.804ms
+    time in Q2 should be 0.025ms
+    should request 2ms of service time
+    time in S2 should be 2.040ms
+    time in system should be 969.901ms
+
+p45: inter-arrival time should be 18.076ms
+    time in Q1 should be 1083.468ms
+    time in Q2 should be 0.015ms
+    should request 79ms of service time
+    time in S1 should be 79.041ms
+    time in system should be 1162.556ms
+
+p46: inter-arrival time should be 19.087ms
+
+p47: inter-arrival time should be 36.041ms
+    time in Q1 should be 1095.118ms
+    time in Q2 should be 0.023ms
+    should request 2ms of service time
+    time in S2 should be 2.028ms
+    time in system should be 1097.200ms
+
+p48: inter-arrival time should be 7.029ms
+    time in Q1 should be 1221.646ms
+    time in Q2 should be 0.024ms
+    should request 27ms of service time
+    time in S2 should be 27.067ms
+    time in system should be 1248.754ms
+
+p49: inter-arrival time should be 28.067ms
+    time in Q1 should be 1327.066ms
+    time in Q2 should be 0.020ms
+    should request 17ms of service time
+    time in S1 should be 17.061ms
+    time in system should be 1344.446ms
+
+p50: inter-arrival time should be 20.077ms
+    time in Q1 should be 1373.735ms
+    time in Q2 should be 0.018ms
+    should request 16ms of service time
+    time in S2 should be 16.074ms
+    time in system should be 1389.858ms
+
+p51: inter-arrival time should be 25.037ms
+
+p52: inter-arrival time should be 15.035ms
+
+p53: inter-arrival time should be 4.050ms
+    time in Q1 should be 1396.386ms
+    time in Q2 should be 0.025ms
+    should request 27ms of service time
+    time in S1 should be 27.089ms
+    time in system should be 1423.531ms
+
+p54: inter-arrival time should be 15.069ms
+
+p55: inter-arrival time should be 41.079ms
+    time in Q1 should be 1407.020ms
+    time in Q2 should be 0.025ms
+    should request 2ms of service time
+    time in S2 should be 2.034ms
+    time in system should be 1409.111ms
+
+p56: inter-arrival time should be 29.069ms
+
+p57: inter-arrival time should be 17.042ms
+    time in Q1 should be 1427.683ms
+    time in Q2 should be 0.024ms
+    should request 80ms of service time
+    time in S1 should be 80.110ms
+    time in system should be 1507.847ms
+
+p58: inter-arrival time should be 2.030ms
+
+p59: inter-arrival time should be 3.060ms
+    time in Q1 should be 1489.373ms
+    time in Q2 should be 0.026ms
+    should request 30ms of service time
+    time in S2 should be 30.080ms
+    time in system should be 1519.501ms
+
+p60: inter-arrival time should be 2.023ms
+
+p61: inter-arrival time should be 22.067ms
+
+p62: inter-arrival time should be 72.077ms
+
+p63: inter-arrival time should be 105.032ms
+    time in Q1 should be 1421.702ms
+    time in Q2 should be 0.025ms
+    should request 13ms of service time
+    time in S1 should be 13.078ms
+    time in system should be 1434.835ms
+
+p64: inter-arrival time should be 32.034ms
+    time in Q1 should be 1456.458ms
+    time in Q2 should be 0.024ms
+    should request 30ms of service time
+    time in S2 should be 30.076ms
+    time in system should be 1486.577ms
+
+p65: inter-arrival time should be 6.069ms
+    time in Q1 should be 1517.344ms
+    time in Q2 should be 0.015ms
+    should request 52ms of service time
+    time in S1 should be 52.085ms
+    time in system should be 1569.474ms
+
+p66: inter-arrival time should be 12.043ms
+    time in Q1 should be 1572.061ms
+    time in Q2 should be 0.024ms
+    should request 28ms of service time
+    time in S2 should be 28.063ms
+    time in system should be 1600.178ms
+
+p67: inter-arrival time should be 11.069ms
+
+p68: inter-arrival time should be 15.083ms
+
+p69: inter-arrival time should be 63.073ms
+
+p70: inter-arrival time should be 2.040ms
+
+p71: inter-arrival time should be 18.068ms
+
+p72: inter-arrival time should be 8.069ms
+
+p73: inter-arrival time should be 14.062ms
+
+p74: inter-arrival time should be 25.075ms
+    time in Q1 should be 1482.295ms
+    time in Q2 should be 0.023ms
+    should request 90ms of service time
+    time in S1 should be 90.028ms
+    time in system should be 1572.376ms
+
+p75: inter-arrival time should be 87.073ms
+
+p76: inter-arrival time should be 12.075ms
+    time in Q1 should be 1516.652ms
+    time in Q2 should be 0.024ms
+    should request 69ms of service time
+    time in S2 should be 69.034ms
+    time in system should be 1585.746ms
+
+p77: inter-arrival time should be 6.071ms
+    time in Q1 should be 1644.079ms
+    time in Q2 should be 0.024ms
+    should request 126ms of service time
+    time in S1 should be 126.047ms
+    time in system should be 1770.183ms
+
+p78: inter-arrival time should be 1.053ms
+    time in Q1 should be 1776.876ms
+    time in Q2 should be 0.024ms
+    should request 90ms of service time
+    time in S2 should be 90.078ms
+    time in system should be 1866.996ms
+
+p79: inter-arrival time should be 7.065ms
+
+p80: inter-arrival time should be 13.068ms
+    time in Q1 should be 1823.508ms
+    time in Q2 should be 0.024ms
+    should request 55ms of service time
+    time in S1 should be 55.053ms
+    time in system should be 1878.615ms
+
+p81: inter-arrival time should be 14.064ms
+
+p82: inter-arrival time should be 44.070ms
+
+p83: inter-arrival time should be 32.058ms
+    time in Q1 should be 1800.058ms
+    time in Q2 should be 0.014ms
+    should request 28ms of service time
+    time in S2 should be 28.080ms
+    time in system should be 1828.181ms
+
+p84: inter-arrival time should be 6.072ms
+    time in Q1 should be 1860.731ms
+    time in Q2 should be 0.021ms
+    should request 5ms of service time
+    time in S1 should be 5.077ms
+    time in system should be 1865.861ms
+
+p85: inter-arrival time should be 16.070ms
+    time in Q1 should be 1978.211ms
+    time in Q2 should be 0.025ms
+    should request 19ms of service time
+    time in S2 should be 19.076ms
+    time in system should be 1997.343ms
+
+p86: inter-arrival time should be 28.061ms
+
+p87: inter-arrival time should be 32.069ms
+    time in Q1 should be 1984.870ms
+    time in Q2 should be 0.024ms
+    should request 8ms of service time
+    time in S1 should be 8.063ms
+    time in system should be 1992.986ms
+
+p88: inter-arrival time should be 8.067ms
+
+p89: inter-arrival time should be 22.086ms
+
+p90: inter-arrival time should be 13.043ms
+
+p91: inter-arrival time should be 21.081ms
+
+p92: inter-arrival time should be 30.047ms
+
+p93: inter-arrival time should be 9.073ms
+
+p94: inter-arrival time should be 35.068ms
+    time in Q1 should be 1979.948ms
+    time in Q2 should be 0.026ms
+    should request 13ms of service time
+    time in S2 should be 13.077ms
+    time in system should be 1993.083ms
+
+p95: inter-arrival time should be 3.030ms
+
+p96: inter-arrival time should be 1.022ms
+
+p97: inter-arrival time should be 4.021ms
+
+p98: inter-arrival time should be 21.070ms
+
+p99: inter-arrival time should be 9.080ms
+
+p100: inter-arrival time should be 14.067ms
+
+p101: inter-arrival time should be 2.025ms
+
+p102: inter-arrival time should be 25.091ms
+    time in Q1 should be 1967.324ms
+    time in Q2 should be 0.024ms
+    should request 1ms of service time
+    time in S1 should be 1.029ms
+    time in system should be 1968.407ms
+
+p103: inter-arrival time should be 15.069ms
+    time in Q1 should be 2019.032ms
+    time in Q2 should be 0.023ms
+    should request 53ms of service time
+    time in S2 should be 53.028ms
+    time in system should be 2072.115ms
+
+p104: inter-arrival time should be 72.071ms
+
+p105: inter-arrival time should be 2.035ms
+    time in Q1 should be 2011.717ms
+    time in Q2 should be 0.023ms
+    should request 23ms of service time
+    time in S1 should be 23.074ms
+    time in system should be 2034.831ms
+
+p106: inter-arrival time should be 17.074ms
+    time in Q1 should be 2061.416ms
+    time in Q2 should be 0.025ms
+    should request 14ms of service time
+    time in S2 should be 14.073ms
+    time in system should be 2075.545ms
+
+p107: inter-arrival time should be 1.036ms
+
+p108: inter-arrival time should be 3.062ms
+    time in Q1 should be 2190.815ms
+    time in Q2 should be 0.016ms
+    should request 65ms of service time
+    time in S1 should be 65.093ms
+    time in system should be 2255.952ms
+
+p109: inter-arrival time should be 52.096ms
+
+p110: inter-arrival time should be 83.091ms
+
+p111: inter-arrival time should be 10.076ms
+
+p112: inter-arrival time should be 42.092ms
+
+p113: inter-arrival time should be 17.030ms
+    time in Q1 should be 2053.159ms
+    time in Q2 should be 0.017ms
+    should request 2ms of service time
+    time in S2 should be 2.053ms
+    time in system should be 2055.247ms
+
+p114: inter-arrival time should be 9.072ms
+
+p115: inter-arrival time should be 23.072ms
+    time in Q1 should be 2087.741ms
+    time in Q2 should be 0.021ms
+    should request 11ms of service time
+    time in S1 should be 11.066ms
+    time in system should be 2098.859ms
+
+p116: inter-arrival time should be 25.073ms
+    time in Q1 should be 2129.449ms
+    time in Q2 should be 0.023ms
+    should request 19ms of service time
+    time in S2 should be 19.061ms
+    time in system should be 2148.565ms
+
+p117: inter-arrival time should be 2.035ms
+
+p118: inter-arrival time should be 22.094ms
+
+p119: inter-arrival time should be 25.071ms
+
+p120: inter-arrival time should be 2.035ms
+
+p121: inter-arrival time should be 44.077ms
+
+p122: inter-arrival time should be 1.059ms
+
+p123: inter-arrival time should be 8.060ms
+
+p124: inter-arrival time should be 41.082ms
+    time in Q1 should be 2050.713ms
+    time in Q2 should be 0.022ms
+    should request 45ms of service time
+    time in S1 should be 45.041ms
+    time in system should be 2095.808ms
+
+p125: inter-arrival time should be 9.076ms
+
+p126: inter-arrival time should be 3.051ms
+
+p127: inter-arrival time should be 12.069ms
+    time in Q1 should be 2160.056ms
+    time in Q2 should be 0.024ms
+    should request 27ms of service time
+    time in S2 should be 27.075ms
+    time in system should be 2187.187ms
+
+
+
+p130: inter-arrival time should be 1.050ms
+
+p131: inter-arrival time should be 2.022ms
+
+p132: inter-arrival time should be 47.071ms
+
+
+p134: inter-arrival time should be 35.070ms
+
+
+
+
+p138: inter-arrival time should be 63.079ms
+
+p139: inter-arrival time should be 11.070ms
+
+p140: inter-arrival time should be 3.026ms
+
+p141: inter-arrival time should be 79.484ms
+
+
+p143: inter-arrival time should be 16.060ms
+
+p144: inter-arrival time should be 1.024ms
+
+
+p146: inter-arrival time should be 3.068ms
+
+
+
+p149: inter-arrival time should be 18.098ms
+
+p150: inter-arrival time should be 91.079ms
+
+p151: inter-arrival time should be 9.067ms
+
+p152: inter-arrival time should be 39.069ms
+
+p153: inter-arrival time should be 7.052ms
+
+p154: inter-arrival time should be 19.072ms
+
+p155: inter-arrival time should be 64.041ms
+
+
+
+p158: inter-arrival time should be 28.067ms
+
+p159: inter-arrival time should be 10.048ms
+
+
+
+
+p163: inter-arrival time should be 9.075ms
+
+
+
+
+p167: inter-arrival time should be 9.070ms
+
+
+p169: inter-arrival time should be 6.077ms
+
+
+
+p172: inter-arrival time should be 8.080ms
+
+p173: inter-arrival time should be 71.074ms
+
+
+p175: inter-arrival time should be 23.070ms
+
+p176: inter-arrival time should be 14.070ms
+
+
+
+p179: inter-arrival time should be 42.073ms
+
+p180: inter-arrival time should be 29.056ms
+
+p181: inter-arrival time should be 67.075ms
+
+p182: inter-arrival time should be 21.083ms
+
+p183: inter-arrival time should be 24.048ms
+
+p184: inter-arrival time should be 28.072ms
+
+
+
+p187: inter-arrival time should be 22.058ms
+
+
+
+p190: inter-arrival time should be 24.066ms
+
+p191: inter-arrival time should be 5.059ms
+
+p192: inter-arrival time should be 16.069ms
+
+
+
+p195: inter-arrival time should be 1.021ms
+
+p196: inter-arrival time should be 17.073ms
+
+p197: inter-arrival time should be 8.078ms
+
+p198: inter-arrival time should be 10.065ms
+
+p199: inter-arrival time should be 10.067ms
+
+
+
+
+p203: inter-arrival time should be 24.076ms
+
+
+
+p206: inter-arrival time should be 22.072ms
+
+
+
+p209: inter-arrival time should be 41.058ms
+
+
+p211: inter-arrival time should be 1.016ms
+
+
+p213: inter-arrival time should be 7.071ms
+
+
+
+p216: inter-arrival time should be 36.077ms
+
+
+p218: inter-arrival time should be 9.040ms
+
+
+p220: inter-arrival time should be 36.068ms
+
+
+
+p223: inter-arrival time should be 6.064ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==== Statistics ====
+average packet inter-arrival time = 0.0216130131004367
+average packet service time = 0.0387152592592593
+average number of packets in Q1 = 13.8192100776342
+average number of packets in Q2 = 0.000248946254978925
+average number of packets in S1 = 0.21800950061019
+average number of packets in S2 = 0.202728587804572
+average time a packet spent in system = 1.31038433333333
+standard deviation for time spent in system = 0.625547174666633
+token drop probability = 0
+packet drop probability = 0.541484716157205

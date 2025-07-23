@@ -1,0 +1,75 @@
+
+==== Packets ====
+p1: inter-arrival time should be 423.082ms
+    time in Q1 should be 0.010ms
+    time in Q2 should be 0.049ms
+    should request 46ms of service time
+    time in S1 should be 46.035ms
+    time in system should be 46.142ms
+
+p2: inter-arrival time should be 222.086ms
+    time in Q1 should be 466.427ms
+    time in Q2 should be 0.024ms
+    should request 792ms of service time
+    time in S2 should be 792.075ms
+    time in system should be 1258.613ms
+
+p3: inter-arrival time should be 379.068ms
+    time in Q1 should be 1421.281ms
+    time in Q2 should be 0.021ms
+    should request 1111ms of service time
+    time in S1 should be 1111.068ms
+    time in system should be 2532.403ms
+
+p4: inter-arrival time should be 61.042ms
+    time in Q1 should be 1582.603ms
+    time in Q2 should be 0.021ms
+    should request 1025ms of service time
+    time in S2 should be 1025.032ms
+    time in system should be 2607.689ms
+
+p5: inter-arrival time should be 248.062ms
+    time in Q1 should be 1556.893ms
+    time in Q2 should be 666.406ms
+    should request 135ms of service time
+    time in S1 should be 135.070ms
+    time in system should be 2358.399ms
+
+p6: inter-arrival time should be 177.130ms
+    time in Q1 should be 1824.398ms
+    time in Q2 should be 356.869ms
+    should request 730ms of service time
+    time in S1 should be 730.111ms
+    time in system should be 2911.412ms
+
+p7: inter-arrival time should be 78.037ms
+    time in Q1 should be 2857.928ms
+    time in Q2 should be 0.032ms
+    should request 1210ms of service time
+    time in S1 should be 1210.034ms
+    time in system should be 4068.024ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==== Statistics ====
+average packet inter-arrival time = 0.23093125
+average packet service time = 0.721346428571429
+average number of packets in Q1 = 1.71649117025871
+average number of packets in Q2 = 0.180924619132164
+average number of packets in S1 = 0.571422055675995
+average number of packets in S2 = 0.321235415984207
+average time a packet spent in system = 2.25466885714286
+standard deviation for time spent in system = 1.18332497631491
+token drop probability = 0
+packet drop probability = 0

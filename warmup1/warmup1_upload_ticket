@@ -1,0 +1,86 @@
+ 
+Bistro Home <http://merlot.usc.edu/bistro>
+
+		
+
+
+  Upload To Bistro
+
+*Upload Successful*
+An upload ticket has been e-mailed to <sshashid@usc.edu>. Below is the
+content of the ticket. Please double check the ticket content to make
+sure that the lines that contain the following keywords make sense:
+
+  * *file_size*
+  * *file_name* (only the last part of the file_name matters)
+  * *server_time_string* 
+
+The ticket below is *PROOF* that your submission has been received by
+the Bistro server. Since an e-mail may get delayed or dropped by the
+Internet, it's best that you save this page as PDF immediately so you
+can have a copy of the ticket. (Please note that reloading this page
+*may not work* since this web page is generated dynamically.)
+ 
+*Ticket Content*
+
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----867601353FD1D10E5A042C05F4E799C1"
+
+This is an S/MIME signed message
+
+------867601353FD1D10E5A042C05F4E799C1
+[ticket]
+format_version=1.0
+type=simple
+ticket_id=1207
+evid=merlot.usc.edu_80_1557931083_95
+user_email=sshashid@usc.edu
+client_ip=76.147.168.53
+hash_algorithm=sha1
+hash_value=22fc9b9cd7c8aad0c85f500b351c71e2f196e61a
+random_value=490e2eb334b1ad3c10e96c5641e689c67fa3640f
+file_size=6228
+file_name=C:/fakepath/warmup1.tar.gz
+userid=sshashid
+server_id=merlot.usc.edu_80_1557931083
+server_time=1706125193
+server_time_string=24Jan2024-11:39:53
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Do NOT delete this file.  This ticket file is PROOF ;
+; that your submission with the above hash value was  ;
+; received by the server at the time indicated by the ;
+; server_time_string above.  Also, please do NOT      ;
+; alter this file.                                    ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+------867601353FD1D10E5A042C05F4E799C1
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIC8wYJKoZIhvcNAQcCoIIC5DCCAuACAQExDzANBglghkgBZQMEAgEFADALBgkq
+hkiG9w0BBwExggK7MIICtwIBATCBqDCBojELMAkGA1UEBhMCVVMxCzAJBgNVBAgM
+AkNBMQswCQYDVQQHDAJMQTEMMAoGA1UECgwDVVNDMSowKAYDVQQLDCFCaXN0cm8t
+cmVzZWFyY2gtMTU1NzkzMTA4My1yb290Y2ExFzAVBgNVBAMMDm1lcmxvdC51c2Mu
+ZWR1MSYwJAYJKoZIhvcNAQkBFhd3aWxsaWFtQGJvdXJib24udXNjLmVkdQIBXzAN
+BglghkgBZQMEAgEFAKCB5DAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqG
+SIb3DQEJBTEPFw0yNDAxMjQxOTM5NTNaMC8GCSqGSIb3DQEJBDEiBCAi4PjmbkJt
+cyKlo+TGXtQ/ZeCN7UfiP3w1hC0JyOr+7jB5BgkqhkiG9w0BCQ8xbDBqMAsGCWCG
+SAFlAwQBKjALBglghkgBZQMEARYwCwYJYIZIAWUDBAECMAoGCCqGSIb3DQMHMA4G
+CCqGSIb3DQMCAgIAgDANBggqhkiG9w0DAgIBQDAHBgUrDgMCBzANBggqhkiG9w0D
+AgIBKDANBgkqhkiG9w0BAQEFAASCAQByNCxxGfRUj0/64p4DyqPZ5Eoib6q7MPF7
+LRg8WSkcURwcpAK+aZxZ2tYDpqWdo5pLGCFo2AWIJqcOudZ23wfEZn7yyYZAP8lf
+vr9lYZG0UkP+/hfrB977kHV1N7lRZZA6pEKPrM2pIULNhed2G2YZdc8y8gTYusuI
+aZ+MHLZiqpJ19J9hcCybluU7+mKK/CiGzvaYWY6L25JpTReuVIF7JreAgxCAfley
+HoA37F9YWVWkycQ6Zq2Q3dLfV8UP3jPRe8/EMICv9g0bpWatSR8JRuUFQurgFkSL
+2VlWmpUdyT9v5N1gy1fNhkihjqwEPA3eUXH3qb1rQ7zFs+WEhHw6
+
+------867601353FD1D10E5A042C05F4E799C1--
+
+ 
+
+------------------------------------------------------------------------
+[/Last updated Tue Aug 15 2023/]   [/Bistro is an Internet Multimedia
+Lab <http://bourbon.usc.edu/iml/> project at the University of Southern
+California/]

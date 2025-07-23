@@ -1,0 +1,44 @@
+Emulation Parameters:
+	number to arrive = 10
+	r = 1.5
+	B = 3
+	tsfile = w2data/f0.txt
+00000000.000ms: emulation begins
+00000226.070ms: p1 arrives, needs 3 tokens, inter-arrival time =226.070ms 
+00000226.090ms: p1 enters Q1
+00000666.807ms: token t1 arrives, token bucket now has 1 token
+00001333.601ms: token t2 arrives, token bucket now has 2 token
+00002000.403ms: token t3 arrives, token bucket now has 3 token
+00002000.428ms: p1 leaves Q1, time in Q1 = 1774.338ms, token bucket now has 0 token
+00002000.480ms: p1 enters Q2
+00002000.508ms: p1 leaves Q2, time in Q2 = 0.028ms
+00002000.519ms: p1 begins service at S2, requesting 153ms of service
+00002153.590ms: p1 departs from S2, service time = 153.071ms, time in system = 1927.520ms
+00002415.145ms: p2 arrives, needs 1 tokens, inter-arrival time =2189.075ms 
+00002415.167ms: p2 enters Q1
+00002667.228ms: token t4 arrives, token bucket now has 1 token
+00002667.246ms: p2 leaves Q1, time in Q1 = 252.079ms, token bucket now has 0 token
+00002667.253ms: p2 enters Q2
+00002667.278ms: p2 leaves Q2, time in Q2 = 0.025ms
+00002667.299ms: p2 begins service at S1, requesting 3741ms of service
+00003334.013ms: token t5 arrives, token bucket now has 1 token
+00004000.767ms: token t6 arrives, token bucket now has 2 token
+00004626.569ms: SIGINT caught, no new packets or tokens will be allowed
+00006408.345ms: p2 departs from S1, service time = 3741.046ms, time in system = 3993.200ms
+00006408.419ms: emulation ends
+
+Statistics:
+
+	average packet inter-arrival time =1.20757s
+	average packet service time =1.94706s
+
+	average number of packets in Q1 =0.316212
+	average number of packets in Q2 =8.27037e-06
+	average number of packets at S1 =0.583771
+	average number of packets at S2 =0.0238859
+
+	average time a packet spent in system =2.96036s
+	standard deviation for time spent in system =1.03284s
+
+	token drop probability =0
+	packet drop probability =0

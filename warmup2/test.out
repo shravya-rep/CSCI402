@@ -1,0 +1,41 @@
+Emulation Parameters:
+	number to arrive = 10
+	lamda = 2
+	mu = 0.1
+	r = 1.5
+	B = 1
+	P = 3
+00000000.000ms: emulation begins
+00000500.041ms: p1 arrives, needs 3 tokens, inter-arrival time =500.041ms, dropped
+00000666.890ms: token t1 arrives, token bucket now has 1 token
+00001000.118ms: p2 arrives, needs 3 tokens, inter-arrival time =500.077ms, dropped
+00001333.676ms: token t2 arrives,dropped
+00001500.186ms: p3 arrives, needs 3 tokens, inter-arrival time =500.068ms, dropped
+00002000.254ms: p4 arrives, needs 3 tokens, inter-arrival time =500.068ms, dropped
+00002000.396ms: token t3 arrives,dropped
+00002500.323ms: p5 arrives, needs 3 tokens, inter-arrival time =500.069ms, dropped
+00002667.135ms: token t4 arrives,dropped
+00003000.393ms: p6 arrives, needs 3 tokens, inter-arrival time =500.070ms, dropped
+00003333.892ms: token t5 arrives,dropped
+00003500.473ms: p7 arrives, needs 3 tokens, inter-arrival time =500.080ms, dropped
+00004000.534ms: p8 arrives, needs 3 tokens, inter-arrival time =500.061ms, dropped
+00004000.620ms: token t6 arrives,dropped
+00004500.587ms: p9 arrives, needs 3 tokens, inter-arrival time =500.053ms, dropped
+00004667.360ms: token t7 arrives,dropped
+00005002.799ms: p10 arrives, needs 3 tokens, inter-arrival time =502.212ms, dropped
+00005334.086ms: token t8 arrives,dropped
+00005334.229ms: emulation ends
+
+Statistics:
+
+	average packet inter-arrival time =0.50028s
+	average packet service time = N/A, no packet served
+	average number of packets in Q1 =0
+	average number of packets in Q2 =0
+	average number of packets at S1 =0
+	average number of packets at S2 =0
+
+	average time a packet spent in system = N/A no packet served
+	standard deviation for time spent in system = N/A no packet served
+	token drop probability =0.875
+	packet drop probability =1

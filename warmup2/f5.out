@@ -1,0 +1,753 @@
+Emulation Parameters:
+	number to arrive = 500
+	r = 15
+	B = 2
+	tsfile = w2data/f5.txt
+00000000.000ms: emulation begins
+00000011.045ms: p1 arrives, needs 1 tokens, inter-arrival time =11.045ms 
+00000011.063ms: p1 enters Q1
+00000017.097ms: p2 arrives, needs 1 tokens, inter-arrival time =6.052ms 
+00000017.116ms: p2 enters Q1
+00000032.112ms: p3 arrives, needs 3 tokens, inter-arrival time =15.015ms, dropped
+00000033.122ms: p4 arrives, needs 2 tokens, inter-arrival time =1.010ms 
+00000033.126ms: p4 enters Q1
+00000066.839ms: token t1 arrives, token bucket now has 1 token
+00000066.867ms: p1 leaves Q1, time in Q1 = 55.804ms, token bucket now has 0 token
+00000066.894ms: p1 enters Q2
+00000066.912ms: p1 leaves Q2, time in Q2 = 0.018ms
+00000066.918ms: p1 begins service at S2, requesting 98ms of service
+00000110.191ms: p5 arrives, needs 4 tokens, inter-arrival time =77.069ms, dropped
+00000133.645ms: token t2 arrives, token bucket now has 1 token
+00000133.663ms: p2 leaves Q1, time in Q1 = 116.547ms, token bucket now has 0 token
+00000133.669ms: p2 enters Q2
+00000133.691ms: p2 leaves Q2, time in Q2 = 0.022ms
+00000133.711ms: p2 begins service at S1, requesting 51ms of service
+00000145.260ms: p6 arrives, needs 4 tokens, inter-arrival time =35.069ms, dropped
+00000164.986ms: p1 departs from S2, service time = 98.068ms, time in system = 153.941ms
+00000171.356ms: p7 arrives, needs 2 tokens, inter-arrival time =26.096ms 
+00000171.376ms: p7 enters Q1
+00000176.429ms: p8 arrives, needs 5 tokens, inter-arrival time =5.073ms, dropped
+00000177.450ms: p9 arrives, needs 1 tokens, inter-arrival time =1.021ms 
+00000177.456ms: p9 enters Q1
+00000180.497ms: p10 arrives, needs 4 tokens, inter-arrival time =3.047ms, dropped
+00000184.777ms: p2 departs from S1, service time = 51.066ms, time in system = 167.680ms
+00000200.424ms: token t3 arrives, token bucket now has 1 token
+00000211.570ms: p11 arrives, needs 1 tokens, inter-arrival time =31.073ms 
+00000211.590ms: p11 enters Q1
+00000231.608ms: p12 arrives, needs 4 tokens, inter-arrival time =20.038ms, dropped
+00000240.680ms: p13 arrives, needs 5 tokens, inter-arrival time =9.072ms, dropped
+00000259.759ms: p14 arrives, needs 5 tokens, inter-arrival time =19.079ms, dropped
+00000267.185ms: token t4 arrives, token bucket now has 2 token
+00000267.204ms: p4 leaves Q1, time in Q1 = 234.078ms, token bucket now has 0 token
+00000267.210ms: p4 enters Q2
+00000267.234ms: p4 leaves Q2, time in Q2 = 0.024ms
+00000267.238ms: p4 begins service at S2, requesting 39ms of service
+00000273.830ms: p15 arrives, needs 1 tokens, inter-arrival time =14.071ms 
+00000273.850ms: p15 enters Q1
+00000275.855ms: p16 arrives, needs 2 tokens, inter-arrival time =2.025ms 
+00000275.861ms: p16 enters Q1
+00000306.282ms: p4 departs from S2, service time = 39.044ms, time in system = 273.160ms
+00000331.897ms: p17 arrives, needs 5 tokens, inter-arrival time =56.042ms, dropped
+00000333.920ms: token t5 arrives, token bucket now has 1 token
+00000340.967ms: p18 arrives, needs 5 tokens, inter-arrival time =9.070ms, dropped
+00000365.040ms: p19 arrives, needs 2 tokens, inter-arrival time =24.073ms 
+00000365.060ms: p19 enters Q1
+00000380.066ms: p20 arrives, needs 1 tokens, inter-arrival time =15.026ms 
+00000380.079ms: p20 enters Q1
+00000400.658ms: token t6 arrives, token bucket now has 2 token
+00000400.677ms: p7 leaves Q1, time in Q1 = 229.301ms, token bucket now has 0 token
+00000400.683ms: p7 enters Q2
+00000400.706ms: p7 leaves Q2, time in Q2 = 0.023ms
+00000400.710ms: p7 begins service at S1, requesting 12ms of service
+00000412.781ms: p7 departs from S1, service time = 12.071ms, time in system = 241.425ms
+00000413.100ms: p21 arrives, needs 2 tokens, inter-arrival time =33.034ms 
+00000413.107ms: p21 enters Q1
+00000419.169ms: p22 arrives, needs 2 tokens, inter-arrival time =6.069ms 
+00000419.180ms: p22 enters Q1
+00000433.200ms: p23 arrives, needs 4 tokens, inter-arrival time =14.031ms, dropped
+00000442.261ms: p24 arrives, needs 2 tokens, inter-arrival time =9.061ms 
+00000442.272ms: p24 enters Q1
+00000447.324ms: p25 arrives, needs 3 tokens, inter-arrival time =5.063ms, dropped
+00000461.400ms: p26 arrives, needs 5 tokens, inter-arrival time =14.076ms, dropped
+00000465.464ms: p27 arrives, needs 3 tokens, inter-arrival time =4.064ms, dropped
+00000467.390ms: token t7 arrives, token bucket now has 1 token
+00000467.397ms: p9 leaves Q1, time in Q1 = 289.941ms, token bucket now has 0 token
+00000467.402ms: p9 enters Q2
+00000467.421ms: p9 leaves Q2, time in Q2 = 0.019ms
+00000467.425ms: p9 begins service at S2, requesting 53ms of service
+00000474.520ms: p28 arrives, needs 3 tokens, inter-arrival time =9.056ms, dropped
+00000480.571ms: p29 arrives, needs 5 tokens, inter-arrival time =6.051ms, dropped
+00000522.205ms: p9 departs from S2, service time = 54.780ms, time in system = 344.755ms
+00000534.143ms: token t8 arrives, token bucket now has 1 token
+00000534.158ms: p11 leaves Q1, time in Q1 = 322.568ms, token bucket now has 0 token
+00000534.164ms: p11 enters Q2
+00000534.183ms: p11 leaves Q2, time in Q2 = 0.019ms
+00000534.187ms: p11 begins service at S1, requesting 24ms of service
+00000558.278ms: p11 departs from S1, service time = 24.091ms, time in system = 346.708ms
+00000580.601ms: p30 arrives, needs 1 tokens, inter-arrival time =100.030ms 
+00000580.619ms: p30 enters Q1
+00000600.912ms: token t9 arrives, token bucket now has 1 token
+00000600.932ms: p15 leaves Q1, time in Q1 = 327.082ms, token bucket now has 0 token
+00000600.938ms: p15 enters Q2
+00000600.963ms: p15 leaves Q2, time in Q2 = 0.025ms
+00000600.967ms: p15 begins service at S2, requesting 2ms of service
+00000603.001ms: p15 departs from S2, service time = 2.034ms, time in system = 329.171ms
+00000667.690ms: token t10 arrives, token bucket now has 1 token
+00000693.667ms: p31 arrives, needs 3 tokens, inter-arrival time =113.066ms, dropped
+00000712.748ms: p32 arrives, needs 5 tokens, inter-arrival time =19.081ms, dropped
+00000713.781ms: p33 arrives, needs 1 tokens, inter-arrival time =1.033ms 
+00000713.788ms: p33 enters Q1
+00000715.813ms: p34 arrives, needs 1 tokens, inter-arrival time =2.032ms 
+00000715.819ms: p34 enters Q1
+00000721.878ms: p35 arrives, needs 4 tokens, inter-arrival time =6.065ms, dropped
+00000734.429ms: token t11 arrives, token bucket now has 2 token
+00000734.449ms: p16 leaves Q1, time in Q1 = 458.588ms, token bucket now has 0 token
+00000734.455ms: p16 enters Q2
+00000734.479ms: p16 leaves Q2, time in Q2 = 0.024ms
+00000734.483ms: p16 begins service at S1, requesting 20ms of service
+00000754.575ms: p16 departs from S1, service time = 20.092ms, time in system = 478.720ms
+00000767.942ms: p36 arrives, needs 5 tokens, inter-arrival time =46.064ms, dropped
+00000781.978ms: p37 arrives, needs 2 tokens, inter-arrival time =14.036ms 
+00000781.996ms: p37 enters Q1
+00000801.204ms: token t12 arrives, token bucket now has 1 token
+00000804.003ms: p38 arrives, needs 1 tokens, inter-arrival time =22.025ms 
+00000804.012ms: p38 enters Q1
+00000843.072ms: p39 arrives, needs 5 tokens, inter-arrival time =39.069ms, dropped
+00000867.943ms: token t13 arrives, token bucket now has 2 token
+00000867.962ms: p19 leaves Q1, time in Q1 = 502.902ms, token bucket now has 0 token
+00000867.968ms: p19 enters Q2
+00000867.992ms: p19 leaves Q2, time in Q2 = 0.024ms
+00000867.996ms: p19 begins service at S2, requesting 99ms of service
+00000882.114ms: p40 arrives, needs 3 tokens, inter-arrival time =39.042ms, dropped
+00000934.725ms: token t14 arrives, token bucket now has 1 token
+00000934.744ms: p20 leaves Q1, time in Q1 = 554.665ms, token bucket now has 0 token
+00000934.750ms: p20 enters Q2
+00000934.778ms: p20 leaves Q2, time in Q2 = 0.028ms
+00000934.783ms: p20 begins service at S1, requesting 36ms of service
+00000949.183ms: p41 arrives, needs 1 tokens, inter-arrival time =67.069ms 
+00000949.204ms: p41 enters Q1
+00000967.075ms: p19 departs from S2, service time = 99.079ms, time in system = 602.035ms
+00000970.860ms: p20 departs from S1, service time = 36.077ms, time in system = 590.794ms
+00001001.501ms: token t15 arrives, token bucket now has 1 token
+00001008.224ms: p42 arrives, needs 4 tokens, inter-arrival time =59.041ms, dropped
+00001030.296ms: p43 arrives, needs 1 tokens, inter-arrival time =22.072ms 
+00001030.559ms: p43 enters Q1
+00001035.377ms: p44 arrives, needs 2 tokens, inter-arrival time =5.081ms 
+00001035.399ms: p44 enters Q1
+00001053.453ms: p45 arrives, needs 2 tokens, inter-arrival time =18.076ms 
+00001053.475ms: p45 enters Q1
+00001068.269ms: token t16 arrives, token bucket now has 2 token
+00001068.288ms: p21 leaves Q1, time in Q1 = 655.181ms, token bucket now has 0 token
+00001068.294ms: p21 enters Q2
+00001068.326ms: p21 leaves Q2, time in Q2 = 0.032ms
+00001068.330ms: p21 begins service at S1, requesting 47ms of service
+00001072.540ms: p46 arrives, needs 5 tokens, inter-arrival time =19.087ms, dropped
+00001108.581ms: p47 arrives, needs 1 tokens, inter-arrival time =36.041ms 
+00001108.601ms: p47 enters Q1
+00001115.393ms: p21 departs from S1, service time = 47.063ms, time in system = 702.293ms
+00001115.610ms: p48 arrives, needs 2 tokens, inter-arrival time =7.029ms 
+00001115.617ms: p48 enters Q1
+00001135.068ms: token t17 arrives, token bucket now has 1 token
+00001143.677ms: p49 arrives, needs 2 tokens, inter-arrival time =28.067ms 
+00001143.696ms: p49 enters Q1
+00001163.754ms: p50 arrives, needs 1 tokens, inter-arrival time =20.077ms 
+00001163.776ms: p50 enters Q1
+00001188.791ms: p51 arrives, needs 5 tokens, inter-arrival time =25.037ms, dropped
+00001201.821ms: token t18 arrives, token bucket now has 2 token
+00001201.840ms: p22 leaves Q1, time in Q1 = 782.660ms, token bucket now has 0 token
+00001201.846ms: p22 enters Q2
+00001201.868ms: p22 leaves Q2, time in Q2 = 0.022ms
+00001201.872ms: p22 begins service at S2, requesting 40ms of service
+00001203.826ms: p52 arrives, needs 5 tokens, inter-arrival time =15.035ms, dropped
+00001207.876ms: p53 arrives, needs 1 tokens, inter-arrival time =4.050ms 
+00001207.897ms: p53 enters Q1
+00001222.945ms: p54 arrives, needs 3 tokens, inter-arrival time =15.069ms, dropped
+00001241.945ms: p22 departs from S2, service time = 40.073ms, time in system = 822.776ms
+00001264.024ms: p55 arrives, needs 1 tokens, inter-arrival time =41.079ms 
+00001264.045ms: p55 enters Q1
+00001268.611ms: token t19 arrives, token bucket now has 1 token
+00001293.093ms: p56 arrives, needs 5 tokens, inter-arrival time =29.069ms, dropped
+00001310.135ms: p57 arrives, needs 1 tokens, inter-arrival time =17.042ms 
+00001310.155ms: p57 enters Q1
+00001312.165ms: p58 arrives, needs 4 tokens, inter-arrival time =2.030ms, dropped
+00001315.225ms: p59 arrives, needs 1 tokens, inter-arrival time =3.060ms 
+00001315.237ms: p59 enters Q1
+00001317.248ms: p60 arrives, needs 5 tokens, inter-arrival time =2.023ms, dropped
+00001335.324ms: token t20 arrives, token bucket now has 2 token
+00001335.343ms: p24 leaves Q1, time in Q1 = 893.071ms, token bucket now has 0 token
+00001335.349ms: p24 enters Q2
+00001335.367ms: p24 leaves Q2, time in Q2 = 0.018ms
+00001335.371ms: p24 begins service at S1, requesting 57ms of service
+00001339.315ms: p61 arrives, needs 4 tokens, inter-arrival time =22.067ms, dropped
+00001392.455ms: p24 departs from S1, service time = 57.084ms, time in system = 950.194ms
+00001402.093ms: token t21 arrives, token bucket now has 1 token
+00001402.110ms: p30 leaves Q1, time in Q1 = 821.491ms, token bucket now has 0 token
+00001402.117ms: p30 enters Q2
+00001402.142ms: p30 leaves Q2, time in Q2 = 0.025ms
+00001402.146ms: p30 begins service at S2, requesting 99ms of service
+00001411.392ms: p62 arrives, needs 4 tokens, inter-arrival time =72.077ms, dropped
+00001468.877ms: token t22 arrives, token bucket now has 1 token
+00001468.897ms: p33 leaves Q1, time in Q1 = 755.109ms, token bucket now has 0 token
+00001468.904ms: p33 enters Q2
+00001468.929ms: p33 leaves Q2, time in Q2 = 0.025ms
+00001468.934ms: p33 begins service at S1, requesting 18ms of service
+00001488.403ms: p33 departs from S1, service time = 19.469ms, time in system = 774.622ms
+00001501.212ms: p30 departs from S2, service time = 99.066ms, time in system = 920.611ms
+00001516.424ms: p63 arrives, needs 2 tokens, inter-arrival time =105.032ms 
+00001516.444ms: p63 enters Q1
+00001535.611ms: token t23 arrives, token bucket now has 1 token
+00001535.832ms: p34 leaves Q1, time in Q1 = 820.013ms, token bucket now has 0 token
+00001535.840ms: p34 enters Q2
+00001535.859ms: p34 leaves Q2, time in Q2 = 0.019ms
+00001535.863ms: p34 begins service at S1, requesting 12ms of service
+00001547.939ms: p34 departs from S1, service time = 12.076ms, time in system = 832.126ms
+00001548.458ms: p64 arrives, needs 1 tokens, inter-arrival time =32.034ms 
+00001548.466ms: p64 enters Q1
+00001554.527ms: p65 arrives, needs 1 tokens, inter-arrival time =6.069ms 
+00001554.546ms: p65 enters Q1
+00001566.570ms: p66 arrives, needs 1 tokens, inter-arrival time =12.043ms 
+00001566.590ms: p66 enters Q1
+00001577.639ms: p67 arrives, needs 3 tokens, inter-arrival time =11.069ms, dropped
+00001592.722ms: p68 arrives, needs 3 tokens, inter-arrival time =15.083ms, dropped
+00001602.581ms: token t24 arrives, token bucket now has 1 token
+00001655.795ms: p69 arrives, needs 5 tokens, inter-arrival time =63.073ms, dropped
+00001657.835ms: p70 arrives, needs 5 tokens, inter-arrival time =2.040ms, dropped
+00001669.340ms: token t25 arrives, token bucket now has 2 token
+00001669.359ms: p37 leaves Q1, time in Q1 = 887.363ms, token bucket now has 0 token
+00001669.365ms: p37 enters Q2
+00001669.389ms: p37 leaves Q2, time in Q2 = 0.024ms
+00001669.392ms: p37 begins service at S2, requesting 22ms of service
+00001675.903ms: p71 arrives, needs 3 tokens, inter-arrival time =18.068ms, dropped
+00001683.972ms: p72 arrives, needs 3 tokens, inter-arrival time =8.069ms, dropped
+00001691.427ms: p37 departs from S2, service time = 22.035ms, time in system = 909.449ms
+00001698.034ms: p73 arrives, needs 3 tokens, inter-arrival time =14.062ms, dropped
+00001723.109ms: p74 arrives, needs 1 tokens, inter-arrival time =25.075ms 
+00001723.129ms: p74 enters Q1
+00001736.126ms: token t26 arrives, token bucket now has 1 token
+00001736.146ms: p38 leaves Q1, time in Q1 = 932.134ms, token bucket now has 0 token
+00001736.153ms: p38 enters Q2
+00001736.178ms: p38 leaves Q2, time in Q2 = 0.025ms
+00001736.182ms: p38 begins service at S1, requesting 40ms of service
+00001776.267ms: p38 departs from S1, service time = 40.085ms, time in system = 972.264ms
+00001802.908ms: token t27 arrives, token bucket now has 1 token
+00001802.928ms: p41 leaves Q1, time in Q1 = 853.724ms, token bucket now has 0 token
+00001802.935ms: p41 enters Q2
+00001802.959ms: p41 leaves Q2, time in Q2 = 0.024ms
+00001802.964ms: p41 begins service at S2, requesting 81ms of service
+00001810.182ms: p75 arrives, needs 4 tokens, inter-arrival time =87.073ms, dropped
+00001822.257ms: p76 arrives, needs 2 tokens, inter-arrival time =12.075ms 
+00001822.277ms: p76 enters Q1
+00001828.328ms: p77 arrives, needs 2 tokens, inter-arrival time =6.071ms 
+00001828.348ms: p77 enters Q1
+00001829.381ms: p78 arrives, needs 2 tokens, inter-arrival time =1.053ms 
+00001829.388ms: p78 enters Q1
+00001836.446ms: p79 arrives, needs 5 tokens, inter-arrival time =7.065ms, dropped
+00001849.514ms: p80 arrives, needs 1 tokens, inter-arrival time =13.068ms 
+00001849.534ms: p80 enters Q1
+00001863.578ms: p81 arrives, needs 3 tokens, inter-arrival time =14.064ms, dropped
+00001869.686ms: token t28 arrives, token bucket now has 1 token
+00001869.704ms: p43 leaves Q1, time in Q1 = 839.145ms, token bucket now has 0 token
+00001869.710ms: p43 enters Q2
+00001869.747ms: p43 leaves Q2, time in Q2 = 0.037ms
+00001869.751ms: p43 begins service at S1, requesting 66ms of service
+00001884.035ms: p41 departs from S2, service time = 81.071ms, time in system = 934.852ms
+00001907.648ms: p82 arrives, needs 3 tokens, inter-arrival time =44.070ms, dropped
+00001935.819ms: p43 departs from S1, service time = 66.068ms, time in system = 905.523ms
+00001936.440ms: token t29 arrives, token bucket now has 1 token
+00001939.706ms: p83 arrives, needs 1 tokens, inter-arrival time =32.058ms 
+00001939.725ms: p83 enters Q1
+00001945.778ms: p84 arrives, needs 1 tokens, inter-arrival time =6.072ms 
+00001945.798ms: p84 enters Q1
+00001961.848ms: p85 arrives, needs 2 tokens, inter-arrival time =16.070ms 
+00001961.868ms: p85 enters Q1
+00001989.909ms: p86 arrives, needs 5 tokens, inter-arrival time =28.061ms, dropped
+00002003.184ms: token t30 arrives, token bucket now has 2 token
+00002003.203ms: p44 leaves Q1, time in Q1 = 967.804ms, token bucket now has 0 token
+00002003.209ms: p44 enters Q2
+00002003.234ms: p44 leaves Q2, time in Q2 = 0.025ms
+00002003.238ms: p44 begins service at S2, requesting 2ms of service
+00002005.278ms: p44 departs from S2, service time = 2.040ms, time in system = 969.901ms
+00002021.978ms: p87 arrives, needs 1 tokens, inter-arrival time =32.069ms 
+00002021.997ms: p87 enters Q1
+00002030.045ms: p88 arrives, needs 3 tokens, inter-arrival time =8.067ms, dropped
+00002052.131ms: p89 arrives, needs 4 tokens, inter-arrival time =22.086ms, dropped
+00002065.174ms: p90 arrives, needs 4 tokens, inter-arrival time =13.043ms, dropped
+00002069.974ms: token t31 arrives, token bucket now has 1 token
+00002086.255ms: p91 arrives, needs 4 tokens, inter-arrival time =21.081ms, dropped
+00002116.302ms: p92 arrives, needs 4 tokens, inter-arrival time =30.047ms, dropped
+00002125.375ms: p93 arrives, needs 5 tokens, inter-arrival time =9.073ms, dropped
+00002136.926ms: token t32 arrives, token bucket now has 2 token
+00002136.943ms: p45 leaves Q1, time in Q1 = 1083.468ms, token bucket now has 0 token
+00002136.949ms: p45 enters Q2
+00002136.964ms: p45 leaves Q2, time in Q2 = 0.015ms
+00002136.968ms: p45 begins service at S1, requesting 79ms of service
+00002160.443ms: p94 arrives, needs 2 tokens, inter-arrival time =35.068ms 
+00002160.464ms: p94 enters Q1
+00002163.473ms: p95 arrives, needs 5 tokens, inter-arrival time =3.030ms, dropped
+00002164.495ms: p96 arrives, needs 3 tokens, inter-arrival time =1.022ms, dropped
+00002168.516ms: p97 arrives, needs 3 tokens, inter-arrival time =4.021ms, dropped
+00002189.586ms: p98 arrives, needs 3 tokens, inter-arrival time =21.070ms, dropped
+00002198.666ms: p99 arrives, needs 3 tokens, inter-arrival time =9.080ms, dropped
+00002203.700ms: token t33 arrives, token bucket now has 1 token
+00002203.719ms: p47 leaves Q1, time in Q1 = 1095.118ms, token bucket now has 0 token
+00002203.726ms: p47 enters Q2
+00002203.749ms: p47 leaves Q2, time in Q2 = 0.023ms
+00002203.753ms: p47 begins service at S2, requesting 2ms of service
+00002205.781ms: p47 departs from S2, service time = 2.028ms, time in system = 1097.200ms
+00002212.733ms: p100 arrives, needs 5 tokens, inter-arrival time =14.067ms, dropped
+00002214.758ms: p101 arrives, needs 5 tokens, inter-arrival time =2.025ms, dropped
+00002216.009ms: p45 departs from S1, service time = 79.041ms, time in system = 1162.556ms
+00002239.849ms: p102 arrives, needs 1 tokens, inter-arrival time =25.091ms 
+00002239.869ms: p102 enters Q1
+00002254.918ms: p103 arrives, needs 1 tokens, inter-arrival time =15.069ms 
+00002254.939ms: p103 enters Q1
+00002270.485ms: token t34 arrives, token bucket now has 1 token
+00002326.989ms: p104 arrives, needs 3 tokens, inter-arrival time =72.071ms, dropped
+00002329.024ms: p105 arrives, needs 1 tokens, inter-arrival time =2.035ms 
+00002329.031ms: p105 enters Q1
+00002337.244ms: token t35 arrives, token bucket now has 2 token
+00002337.263ms: p48 leaves Q1, time in Q1 = 1221.646ms, token bucket now has 0 token
+00002337.269ms: p48 enters Q2
+00002337.293ms: p48 leaves Q2, time in Q2 = 0.024ms
+00002337.297ms: p48 begins service at S2, requesting 27ms of service
+00002346.098ms: p106 arrives, needs 1 tokens, inter-arrival time =17.074ms 
+00002346.119ms: p106 enters Q1
+00002347.134ms: p107 arrives, needs 5 tokens, inter-arrival time =1.036ms, dropped
+00002350.196ms: p108 arrives, needs 2 tokens, inter-arrival time =3.062ms 
+00002350.215ms: p108 enters Q1
+00002364.364ms: p48 departs from S2, service time = 27.067ms, time in system = 1248.754ms
+00002402.292ms: p109 arrives, needs 4 tokens, inter-arrival time =52.096ms, dropped
+00002403.999ms: token t36 arrives, token bucket now has 1 token
+00002470.744ms: token t37 arrives, token bucket now has 2 token
+00002470.762ms: p49 leaves Q1, time in Q1 = 1327.066ms, token bucket now has 0 token
+00002470.769ms: p49 enters Q2
+00002470.789ms: p49 leaves Q2, time in Q2 = 0.020ms
+00002471.062ms: p49 begins service at S1, requesting 17ms of service
+00002485.383ms: p110 arrives, needs 3 tokens, inter-arrival time =83.091ms, dropped
+00002488.123ms: p49 departs from S1, service time = 17.061ms, time in system = 1344.446ms
+00002495.459ms: p111 arrives, needs 5 tokens, inter-arrival time =10.076ms, dropped
+00002537.494ms: token t38 arrives, token bucket now has 1 token
+00002537.511ms: p50 leaves Q1, time in Q1 = 1373.735ms, token bucket now has 0 token
+00002537.516ms: p50 enters Q2
+00002537.534ms: p50 leaves Q2, time in Q2 = 0.018ms
+00002537.538ms: p50 begins service at S2, requesting 16ms of service
+00002537.551ms: p112 arrives, needs 5 tokens, inter-arrival time =42.092ms, dropped
+00002553.612ms: p50 departs from S2, service time = 16.074ms, time in system = 1389.858ms
+00002554.581ms: p113 arrives, needs 1 tokens, inter-arrival time =17.030ms 
+00002554.589ms: p113 enters Q1
+00002563.653ms: p114 arrives, needs 5 tokens, inter-arrival time =9.072ms, dropped
+00002586.725ms: p115 arrives, needs 1 tokens, inter-arrival time =23.072ms 
+00002586.746ms: p115 enters Q1
+00002604.263ms: token t39 arrives, token bucket now has 1 token
+00002604.283ms: p53 leaves Q1, time in Q1 = 1396.386ms, token bucket now has 0 token
+00002604.289ms: p53 enters Q2
+00002604.314ms: p53 leaves Q2, time in Q2 = 0.025ms
+00002604.318ms: p53 begins service at S1, requesting 27ms of service
+00002611.798ms: p116 arrives, needs 1 tokens, inter-arrival time =25.073ms 
+00002611.819ms: p116 enters Q1
+00002613.833ms: p117 arrives, needs 4 tokens, inter-arrival time =2.035ms, dropped
+00002631.407ms: p53 departs from S1, service time = 27.089ms, time in system = 1423.531ms
+00002635.927ms: p118 arrives, needs 4 tokens, inter-arrival time =22.094ms, dropped
+00002660.998ms: p119 arrives, needs 4 tokens, inter-arrival time =25.071ms, dropped
+00002663.033ms: p120 arrives, needs 3 tokens, inter-arrival time =2.035ms, dropped
+00002671.046ms: token t40 arrives, token bucket now has 1 token
+00002671.065ms: p55 leaves Q1, time in Q1 = 1407.020ms, token bucket now has 0 token
+00002671.072ms: p55 enters Q2
+00002671.097ms: p55 leaves Q2, time in Q2 = 0.025ms
+00002671.101ms: p55 begins service at S2, requesting 2ms of service
+00002673.135ms: p55 departs from S2, service time = 2.034ms, time in system = 1409.111ms
+00002707.110ms: p121 arrives, needs 4 tokens, inter-arrival time =44.077ms, dropped
+00002708.169ms: p122 arrives, needs 4 tokens, inter-arrival time =1.059ms, dropped
+00002716.229ms: p123 arrives, needs 4 tokens, inter-arrival time =8.060ms, dropped
+00002737.820ms: token t41 arrives, token bucket now has 1 token
+00002737.838ms: p57 leaves Q1, time in Q1 = 1427.683ms, token bucket now has 0 token
+00002737.844ms: p57 enters Q2
+00002737.868ms: p57 leaves Q2, time in Q2 = 0.024ms
+00002737.872ms: p57 begins service at S1, requesting 80ms of service
+00002757.311ms: p124 arrives, needs 1 tokens, inter-arrival time =41.082ms 
+00002757.333ms: p124 enters Q1
+00002766.387ms: p125 arrives, needs 5 tokens, inter-arrival time =9.076ms, dropped
+00002769.438ms: p126 arrives, needs 4 tokens, inter-arrival time =3.051ms, dropped
+00002781.507ms: p127 arrives, needs 2 tokens, inter-arrival time =12.069ms 
+00002781.528ms: p127 enters Q1
+00002786.575ms: p128 arrives, needs 1 tokens, inter-arrival time =5.068ms 
+00002786.595ms: p128 enters Q1
+00002792.619ms: p129 arrives, needs 2 tokens, inter-arrival time =6.044ms 
+00002792.639ms: p129 enters Q1
+00002793.669ms: p130 arrives, needs 3 tokens, inter-arrival time =1.050ms, dropped
+00002795.691ms: p131 arrives, needs 5 tokens, inter-arrival time =2.022ms, dropped
+00002804.592ms: token t42 arrives, token bucket now has 1 token
+00002804.610ms: p59 leaves Q1, time in Q1 = 1489.373ms, token bucket now has 0 token
+00002804.616ms: p59 enters Q2
+00002804.642ms: p59 leaves Q2, time in Q2 = 0.026ms
+00002804.646ms: p59 begins service at S2, requesting 30ms of service
+00002817.982ms: p57 departs from S1, service time = 80.110ms, time in system = 1507.847ms
+00002834.726ms: p59 departs from S2, service time = 30.080ms, time in system = 1519.501ms
+00002842.762ms: p132 arrives, needs 3 tokens, inter-arrival time =47.071ms, dropped
+00002853.879ms: p133 arrives, needs 2 tokens, inter-arrival time =11.117ms 
+00002853.899ms: p133 enters Q1
+00002871.377ms: token t43 arrives, token bucket now has 1 token
+00002888.949ms: p134 arrives, needs 4 tokens, inter-arrival time =35.070ms, dropped
+00002907.020ms: p135 arrives, needs 2 tokens, inter-arrival time =18.071ms 
+00002907.041ms: p135 enters Q1
+00002908.054ms: p136 arrives, needs 1 tokens, inter-arrival time =1.034ms 
+00002908.061ms: p136 enters Q1
+00002915.115ms: p137 arrives, needs 1 tokens, inter-arrival time =7.061ms 
+00002915.135ms: p137 enters Q1
+00002938.119ms: token t44 arrives, token bucket now has 2 token
+00002938.146ms: p63 leaves Q1, time in Q1 = 1421.702ms, token bucket now has 0 token
+00002938.152ms: p63 enters Q2
+00002938.177ms: p63 leaves Q2, time in Q2 = 0.025ms
+00002938.181ms: p63 begins service at S1, requesting 13ms of service
+00002951.259ms: p63 departs from S1, service time = 13.078ms, time in system = 1434.835ms
+00002978.194ms: p138 arrives, needs 3 tokens, inter-arrival time =63.079ms, dropped
+00002989.264ms: p139 arrives, needs 3 tokens, inter-arrival time =11.070ms, dropped
+00002992.290ms: p140 arrives, needs 5 tokens, inter-arrival time =3.026ms, dropped
+00003004.905ms: token t45 arrives, token bucket now has 1 token
+00003004.924ms: p64 leaves Q1, time in Q1 = 1456.458ms, token bucket now has 0 token
+00003004.931ms: p64 enters Q2
+00003004.955ms: p64 leaves Q2, time in Q2 = 0.024ms
+00003004.959ms: p64 begins service at S2, requesting 30ms of service
+00003035.035ms: p64 departs from S2, service time = 30.076ms, time in system = 1486.577ms
+00003071.774ms: p141 arrives, needs 4 tokens, inter-arrival time =79.484ms, dropped
+00003071.884ms: token t46 arrives, token bucket now has 1 token
+00003071.890ms: p65 leaves Q1, time in Q1 = 1517.344ms, token bucket now has 0 token
+00003071.896ms: p65 enters Q2
+00003071.911ms: p65 leaves Q2, time in Q2 = 0.015ms
+00003071.916ms: p65 begins service at S1, requesting 52ms of service
+00003075.855ms: p142 arrives, needs 1 tokens, inter-arrival time =4.081ms 
+00003075.868ms: p142 enters Q1
+00003091.915ms: p143 arrives, needs 4 tokens, inter-arrival time =16.060ms, dropped
+00003092.939ms: p144 arrives, needs 4 tokens, inter-arrival time =1.024ms, dropped
+00003095.969ms: p145 arrives, needs 2 tokens, inter-arrival time =3.030ms 
+00003095.976ms: p145 enters Q1
+00003099.037ms: p146 arrives, needs 3 tokens, inter-arrival time =3.068ms, dropped
+00003103.104ms: p147 arrives, needs 1 tokens, inter-arrival time =4.067ms 
+00003103.123ms: p147 enters Q1
+00003124.001ms: p65 departs from S1, service time = 52.085ms, time in system = 1569.474ms
+00003125.141ms: p148 arrives, needs 1 tokens, inter-arrival time =22.037ms 
+00003125.150ms: p148 enters Q1
+00003138.633ms: token t47 arrives, token bucket now has 1 token
+00003138.651ms: p66 leaves Q1, time in Q1 = 1572.061ms, token bucket now has 0 token
+00003138.657ms: p66 enters Q2
+00003138.681ms: p66 leaves Q2, time in Q2 = 0.024ms
+00003138.685ms: p66 begins service at S2, requesting 28ms of service
+00003143.239ms: p149 arrives, needs 5 tokens, inter-arrival time =18.098ms, dropped
+00003166.748ms: p66 departs from S2, service time = 28.063ms, time in system = 1600.178ms
+00003205.405ms: token t48 arrives, token bucket now has 1 token
+00003205.424ms: p74 leaves Q1, time in Q1 = 1482.295ms, token bucket now has 0 token
+00003205.430ms: p74 enters Q2
+00003205.453ms: p74 leaves Q2, time in Q2 = 0.023ms
+00003205.457ms: p74 begins service at S1, requesting 90ms of service
+00003234.318ms: p150 arrives, needs 3 tokens, inter-arrival time =91.079ms, dropped
+00003243.385ms: p151 arrives, needs 4 tokens, inter-arrival time =9.067ms, dropped
+00003272.150ms: token t49 arrives, token bucket now has 1 token
+00003282.454ms: p152 arrives, needs 4 tokens, inter-arrival time =39.069ms, dropped
+00003289.506ms: p153 arrives, needs 4 tokens, inter-arrival time =7.052ms, dropped
+00003295.485ms: p74 departs from S1, service time = 90.028ms, time in system = 1572.376ms
+00003308.578ms: p154 arrives, needs 3 tokens, inter-arrival time =19.072ms, dropped
+00003338.909ms: token t50 arrives, token bucket now has 2 token
+00003338.929ms: p76 leaves Q1, time in Q1 = 1516.652ms, token bucket now has 0 token
+00003338.941ms: p76 enters Q2
+00003338.965ms: p76 leaves Q2, time in Q2 = 0.024ms
+00003338.969ms: p76 begins service at S2, requesting 69ms of service
+00003372.619ms: p155 arrives, needs 4 tokens, inter-arrival time =64.041ms, dropped
+00003373.647ms: p156 arrives, needs 2 tokens, inter-arrival time =1.028ms 
+00003373.654ms: p156 enters Q1
+00003386.708ms: p157 arrives, needs 1 tokens, inter-arrival time =13.061ms 
+00003386.726ms: p157 enters Q1
+00003405.691ms: token t51 arrives, token bucket now has 1 token
+00003408.003ms: p76 departs from S2, service time = 69.034ms, time in system = 1585.746ms
+00003414.775ms: p158 arrives, needs 4 tokens, inter-arrival time =28.067ms, dropped
+00003424.823ms: p159 arrives, needs 4 tokens, inter-arrival time =10.048ms, dropped
+00003438.888ms: p160 arrives, needs 2 tokens, inter-arrival time =14.065ms 
+00003438.907ms: p160 enters Q1
+00003448.953ms: p161 arrives, needs 1 tokens, inter-arrival time =10.065ms 
+00003448.965ms: p161 enters Q1
+00003469.017ms: p162 arrives, needs 2 tokens, inter-arrival time =20.064ms 
+00003469.037ms: p162 enters Q1
+00003472.418ms: token t52 arrives, token bucket now has 2 token
+00003472.427ms: p77 leaves Q1, time in Q1 = 1644.079ms, token bucket now has 0 token
+00003472.434ms: p77 enters Q2
+00003472.458ms: p77 leaves Q2, time in Q2 = 0.024ms
+00003472.464ms: p77 begins service at S1, requesting 126ms of service
+00003478.092ms: p163 arrives, needs 5 tokens, inter-arrival time =9.075ms, dropped
+00003506.157ms: p164 arrives, needs 2 tokens, inter-arrival time =28.065ms 
+00003506.172ms: p164 enters Q1
+00003508.200ms: p165 arrives, needs 2 tokens, inter-arrival time =2.043ms 
+00003508.206ms: p165 enters Q1
+00003539.489ms: token t53 arrives, token bucket now has 1 token
+00003556.273ms: p166 arrives, needs 2 tokens, inter-arrival time =48.073ms 
+00003556.295ms: p166 enters Q1
+00003565.343ms: p167 arrives, needs 3 tokens, inter-arrival time =9.070ms, dropped
+00003571.438ms: p168 arrives, needs 2 tokens, inter-arrival time =6.095ms 
+00003571.459ms: p168 enters Q1
+00003577.515ms: p169 arrives, needs 3 tokens, inter-arrival time =6.077ms, dropped
+00003579.562ms: p170 arrives, needs 1 tokens, inter-arrival time =2.047ms 
+00003579.570ms: p170 enters Q1
+00003583.631ms: p171 arrives, needs 1 tokens, inter-arrival time =4.069ms 
+00003583.655ms: p171 enters Q1
+00003591.711ms: p172 arrives, needs 5 tokens, inter-arrival time =8.080ms, dropped
+00003598.511ms: p77 departs from S1, service time = 126.047ms, time in system = 1770.183ms
+00003606.245ms: token t54 arrives, token bucket now has 2 token
+00003606.264ms: p78 leaves Q1, time in Q1 = 1776.876ms, token bucket now has 0 token
+00003606.271ms: p78 enters Q2
+00003606.295ms: p78 leaves Q2, time in Q2 = 0.024ms
+00003606.299ms: p78 begins service at S2, requesting 90ms of service
+00003662.785ms: p173 arrives, needs 4 tokens, inter-arrival time =71.074ms, dropped
+00003665.827ms: p174 arrives, needs 1 tokens, inter-arrival time =3.042ms 
+00003665.836ms: p174 enters Q1
+00003673.023ms: token t55 arrives, token bucket now has 1 token
+00003673.042ms: p80 leaves Q1, time in Q1 = 1823.508ms, token bucket now has 0 token
+00003673.048ms: p80 enters Q2
+00003673.072ms: p80 leaves Q2, time in Q2 = 0.024ms
+00003673.076ms: p80 begins service at S1, requesting 55ms of service
+00003688.897ms: p175 arrives, needs 4 tokens, inter-arrival time =23.070ms, dropped
+00003696.377ms: p78 departs from S2, service time = 90.078ms, time in system = 1866.996ms
+00003702.967ms: p176 arrives, needs 5 tokens, inter-arrival time =14.070ms, dropped
+00003709.034ms: p177 arrives, needs 2 tokens, inter-arrival time =6.067ms 
+00003709.053ms: p177 enters Q1
+00003719.104ms: p178 arrives, needs 1 tokens, inter-arrival time =10.070ms 
+00003719.125ms: p178 enters Q1
+00003728.129ms: p80 departs from S1, service time = 55.053ms, time in system = 1878.615ms
+00003739.765ms: token t56 arrives, token bucket now has 1 token
+00003739.783ms: p83 leaves Q1, time in Q1 = 1800.058ms, token bucket now has 0 token
+00003739.788ms: p83 enters Q2
+00003739.802ms: p83 leaves Q2, time in Q2 = 0.014ms
+00003739.807ms: p83 begins service at S2, requesting 28ms of service
+00003761.177ms: p179 arrives, needs 5 tokens, inter-arrival time =42.073ms, dropped
+00003767.887ms: p83 departs from S2, service time = 28.080ms, time in system = 1828.181ms
+00003790.233ms: p180 arrives, needs 5 tokens, inter-arrival time =29.056ms, dropped
+00003806.509ms: token t57 arrives, token bucket now has 1 token
+00003806.529ms: p84 leaves Q1, time in Q1 = 1860.731ms, token bucket now has 0 token
+00003806.536ms: p84 enters Q2
+00003806.557ms: p84 leaves Q2, time in Q2 = 0.021ms
+00003806.562ms: p84 begins service at S1, requesting 5ms of service
+00003811.639ms: p84 departs from S1, service time = 5.077ms, time in system = 1865.861ms
+00003857.308ms: p181 arrives, needs 4 tokens, inter-arrival time =67.075ms, dropped
+00003873.292ms: token t58 arrives, token bucket now has 1 token
+00003878.391ms: p182 arrives, needs 5 tokens, inter-arrival time =21.083ms, dropped
+00003902.439ms: p183 arrives, needs 5 tokens, inter-arrival time =24.048ms, dropped
+00003930.511ms: p184 arrives, needs 3 tokens, inter-arrival time =28.072ms, dropped
+00003940.058ms: token t59 arrives, token bucket now has 2 token
+00003940.079ms: p85 leaves Q1, time in Q1 = 1978.211ms, token bucket now has 0 token
+00003940.086ms: p85 enters Q2
+00003940.111ms: p85 leaves Q2, time in Q2 = 0.025ms
+00003940.115ms: p85 begins service at S2, requesting 19ms of service
+00003959.191ms: p85 departs from S2, service time = 19.076ms, time in system = 1997.343ms
+00003988.581ms: p185 arrives, needs 1 tokens, inter-arrival time =58.070ms 
+00003988.601ms: p185 enters Q1
+00004006.847ms: token t60 arrives, token bucket now has 1 token
+00004006.867ms: p87 leaves Q1, time in Q1 = 1984.870ms, token bucket now has 0 token
+00004006.873ms: p87 enters Q2
+00004006.897ms: p87 leaves Q2, time in Q2 = 0.024ms
+00004006.901ms: p87 begins service at S1, requesting 8ms of service
+00004014.964ms: p87 departs from S1, service time = 8.063ms, time in system = 1992.986ms
+00004035.623ms: p186 arrives, needs 1 tokens, inter-arrival time =47.042ms 
+00004035.642ms: p186 enters Q1
+00004057.681ms: p187 arrives, needs 3 tokens, inter-arrival time =22.058ms, dropped
+00004073.631ms: token t61 arrives, token bucket now has 1 token
+00004089.755ms: p188 arrives, needs 2 tokens, inter-arrival time =32.074ms 
+00004089.777ms: p188 enters Q1
+00004098.849ms: p189 arrives, needs 1 tokens, inter-arrival time =9.094ms 
+00004098.869ms: p189 enters Q1
+00004122.915ms: p190 arrives, needs 5 tokens, inter-arrival time =24.066ms, dropped
+00004127.974ms: p191 arrives, needs 5 tokens, inter-arrival time =5.059ms, dropped
+00004140.392ms: token t62 arrives, token bucket now has 2 token
+00004140.412ms: p94 leaves Q1, time in Q1 = 1979.948ms, token bucket now has 0 token
+00004140.419ms: p94 enters Q2
+00004140.445ms: p94 leaves Q2, time in Q2 = 0.026ms
+00004140.449ms: p94 begins service at S2, requesting 13ms of service
+00004144.043ms: p192 arrives, needs 5 tokens, inter-arrival time =16.069ms, dropped
+00004153.526ms: p94 departs from S2, service time = 13.077ms, time in system = 1993.083ms
+00004203.077ms: p193 arrives, needs 1 tokens, inter-arrival time =59.034ms 
+00004203.097ms: p193 enters Q1
+00004207.175ms: token t63 arrives, token bucket now has 1 token
+00004207.193ms: p102 leaves Q1, time in Q1 = 1967.324ms, token bucket now has 0 token
+00004207.199ms: p102 enters Q2
+00004207.223ms: p102 leaves Q2, time in Q2 = 0.024ms
+00004207.227ms: p102 begins service at S1, requesting 1ms of service
+00004208.256ms: p102 departs from S1, service time = 1.029ms, time in system = 1968.407ms
+00004223.141ms: p194 arrives, needs 2 tokens, inter-arrival time =20.064ms 
+00004223.161ms: p194 enters Q1
+00004224.162ms: p195 arrives, needs 5 tokens, inter-arrival time =1.021ms, dropped
+00004241.235ms: p196 arrives, needs 3 tokens, inter-arrival time =17.073ms, dropped
+00004249.313ms: p197 arrives, needs 4 tokens, inter-arrival time =8.078ms, dropped
+00004259.378ms: p198 arrives, needs 5 tokens, inter-arrival time =10.065ms, dropped
+00004269.445ms: p199 arrives, needs 4 tokens, inter-arrival time =10.067ms, dropped
+00004273.952ms: token t64 arrives, token bucket now has 1 token
+00004273.971ms: p103 leaves Q1, time in Q1 = 2019.032ms, token bucket now has 0 token
+00004273.978ms: p103 enters Q2
+00004274.001ms: p103 leaves Q2, time in Q2 = 0.023ms
+00004274.005ms: p103 begins service at S2, requesting 53ms of service
+00004277.496ms: p200 arrives, needs 2 tokens, inter-arrival time =8.051ms 
+00004277.503ms: p200 enters Q1
+00004309.570ms: p201 arrives, needs 1 tokens, inter-arrival time =32.074ms 
+00004309.591ms: p201 enters Q1
+00004323.641ms: p202 arrives, needs 2 tokens, inter-arrival time =14.071ms 
+00004323.662ms: p202 enters Q1
+00004327.033ms: p103 departs from S2, service time = 53.028ms, time in system = 2072.115ms
+00004340.727ms: token t65 arrives, token bucket now has 1 token
+00004340.748ms: p105 leaves Q1, time in Q1 = 2011.717ms, token bucket now has 0 token
+00004340.754ms: p105 enters Q2
+00004340.777ms: p105 leaves Q2, time in Q2 = 0.023ms
+00004340.781ms: p105 begins service at S1, requesting 23ms of service
+00004347.717ms: p203 arrives, needs 5 tokens, inter-arrival time =24.076ms, dropped
+00004352.754ms: p204 arrives, needs 2 tokens, inter-arrival time =5.037ms 
+00004352.773ms: p204 enters Q1
+00004357.821ms: p205 arrives, needs 1 tokens, inter-arrival time =5.067ms 
+00004357.842ms: p205 enters Q1
+00004363.855ms: p105 departs from S1, service time = 23.074ms, time in system = 2034.831ms
+00004379.893ms: p206 arrives, needs 5 tokens, inter-arrival time =22.072ms, dropped
+00004407.515ms: token t66 arrives, token bucket now has 1 token
+00004407.535ms: p106 leaves Q1, time in Q1 = 2061.416ms, token bucket now has 0 token
+00004407.541ms: p106 enters Q2
+00004407.566ms: p106 leaves Q2, time in Q2 = 0.025ms
+00004407.570ms: p106 begins service at S2, requesting 14ms of service
+00004421.643ms: p106 departs from S2, service time = 14.073ms, time in system = 2075.545ms
+00004428.926ms: p207 arrives, needs 1 tokens, inter-arrival time =49.033ms 
+00004428.945ms: p207 enters Q1
+00004450.982ms: p208 arrives, needs 2 tokens, inter-arrival time =22.056ms 
+00004451.003ms: p208 enters Q1
+00004474.296ms: token t67 arrives, token bucket now has 1 token
+00004492.040ms: p209 arrives, needs 4 tokens, inter-arrival time =41.058ms, dropped
+00004539.320ms: p210 arrives, needs 2 tokens, inter-arrival time =47.280ms 
+00004539.340ms: p210 enters Q1
+00004540.336ms: p211 arrives, needs 5 tokens, inter-arrival time =1.016ms, dropped
+00004541.025ms: token t68 arrives, token bucket now has 2 token
+00004541.030ms: p108 leaves Q1, time in Q1 = 2190.815ms, token bucket now has 0 token
+00004541.035ms: p108 enters Q2
+00004541.051ms: p108 leaves Q2, time in Q2 = 0.016ms
+00004541.055ms: p108 begins service at S1, requesting 65ms of service
+00004565.400ms: p212 arrives, needs 2 tokens, inter-arrival time =25.064ms 
+00004565.423ms: p212 enters Q1
+00004572.471ms: p213 arrives, needs 5 tokens, inter-arrival time =7.071ms, dropped
+00004573.498ms: p214 arrives, needs 2 tokens, inter-arrival time =1.027ms 
+00004573.504ms: p214 enters Q1
+00004606.148ms: p108 departs from S1, service time = 65.093ms, time in system = 2255.952ms
+00004607.742ms: token t69 arrives, token bucket now has 1 token
+00004607.748ms: p113 leaves Q1, time in Q1 = 2053.159ms, token bucket now has 0 token
+00004607.754ms: p113 enters Q2
+00004607.771ms: p113 leaves Q2, time in Q2 = 0.017ms
+00004607.775ms: p113 begins service at S2, requesting 2ms of service
+00004609.828ms: p113 departs from S2, service time = 2.053ms, time in system = 2055.247ms
+00004619.561ms: p215 arrives, needs 2 tokens, inter-arrival time =46.063ms 
+00004619.574ms: p215 enters Q1
+00004655.638ms: p216 arrives, needs 4 tokens, inter-arrival time =36.077ms, dropped
+00004667.698ms: p217 arrives, needs 1 tokens, inter-arrival time =12.060ms 
+00004667.715ms: p217 enters Q1
+00004674.472ms: token t70 arrives, token bucket now has 1 token
+00004674.487ms: p115 leaves Q1, time in Q1 = 2087.741ms, token bucket now has 0 token
+00004674.493ms: p115 enters Q2
+00004674.514ms: p115 leaves Q2, time in Q2 = 0.021ms
+00004674.518ms: p115 begins service at S1, requesting 11ms of service
+00004676.738ms: p218 arrives, needs 3 tokens, inter-arrival time =9.040ms, dropped
+00004678.760ms: p219 arrives, needs 2 tokens, inter-arrival time =2.022ms 
+00004678.765ms: p219 enters Q1
+00004685.584ms: p115 departs from S1, service time = 11.066ms, time in system = 2098.859ms
+00004714.828ms: p220 arrives, needs 5 tokens, inter-arrival time =36.068ms, dropped
+00004741.250ms: token t71 arrives, token bucket now has 1 token
+00004741.268ms: p116 leaves Q1, time in Q1 = 2129.449ms, token bucket now has 0 token
+00004741.275ms: p116 enters Q2
+00004741.298ms: p116 leaves Q2, time in Q2 = 0.023ms
+00004741.302ms: p116 begins service at S2, requesting 19ms of service
+00004741.854ms: p221 arrives, needs 1 tokens, inter-arrival time =27.026ms 
+00004741.861ms: p221 enters Q1
+00004749.876ms: p222 arrives, needs 1 tokens, inter-arrival time =8.022ms 
+00004749.884ms: p222 enters Q1
+00004755.940ms: p223 arrives, needs 4 tokens, inter-arrival time =6.064ms, dropped
+00004760.363ms: p116 departs from S2, service time = 19.061ms, time in system = 2148.565ms
+00004808.026ms: token t72 arrives, token bucket now has 1 token
+00004808.046ms: p124 leaves Q1, time in Q1 = 2050.713ms, token bucket now has 0 token
+00004808.052ms: p124 enters Q2
+00004808.074ms: p124 leaves Q2, time in Q2 = 0.022ms
+00004808.078ms: p124 begins service at S1, requesting 45ms of service
+00004825.005ms: p224 arrives, needs 2 tokens, inter-arrival time =69.065ms 
+00004825.025ms: p224 enters Q1
+00004833.075ms: p225 arrives, needs 2 tokens, inter-arrival time =8.070ms 
+00004833.095ms: p225 enters Q1
+00004853.119ms: p124 departs from S1, service time = 45.041ms, time in system = 2095.808ms
+00004874.805ms: token t73 arrives, token bucket now has 1 token
+00004876.111ms: p226 arrives, needs 1 tokens, inter-arrival time =43.036ms 
+00004876.121ms: p226 enters Q1
+00004903.154ms: p227 arrives, needs 1 tokens, inter-arrival time =27.043ms 
+00004903.176ms: p227 enters Q1
+00004913.232ms: p228 arrives, needs 1 tokens, inter-arrival time =10.078ms 
+00004913.254ms: p228 enters Q1
+00004941.565ms: token t74 arrives, token bucket now has 2 token
+00004941.584ms: p127 leaves Q1, time in Q1 = 2160.056ms, token bucket now has 0 token
+00004941.591ms: p127 enters Q2
+00004941.615ms: p127 leaves Q2, time in Q2 = 0.024ms
+00004941.619ms: p127 begins service at S2, requesting 27ms of service
+00004949.380ms: p229 arrives, needs 1 tokens, inter-arrival time =36.148ms 
+00004949.401ms: p229 enters Q1
+00004949.882ms: SIGINT caught, no new packets or tokens will be allowed
+00004968.694ms: p127 departs from S2, service time = 27.075ms, time in system = 2187.187ms
+00004968.791ms: p128 removed from Q1
+00004968.795ms: p129 removed from Q1
+00004968.797ms: p133 removed from Q1
+00004968.799ms: p135 removed from Q1
+00004968.801ms: p136 removed from Q1
+00004968.803ms: p137 removed from Q1
+00004968.805ms: p142 removed from Q1
+00004968.807ms: p145 removed from Q1
+00004968.809ms: p147 removed from Q1
+00004968.811ms: p148 removed from Q1
+00004968.813ms: p156 removed from Q1
+00004968.815ms: p157 removed from Q1
+00004968.817ms: p160 removed from Q1
+00004968.819ms: p161 removed from Q1
+00004968.821ms: p162 removed from Q1
+00004968.823ms: p164 removed from Q1
+00004968.825ms: p165 removed from Q1
+00004968.827ms: p166 removed from Q1
+00004968.829ms: p168 removed from Q1
+00004968.831ms: p170 removed from Q1
+00004968.833ms: p171 removed from Q1
+00004968.834ms: p174 removed from Q1
+00004968.836ms: p177 removed from Q1
+00004968.838ms: p178 removed from Q1
+00004968.840ms: p185 removed from Q1
+00004968.842ms: p186 removed from Q1
+00004968.844ms: p188 removed from Q1
+00004968.846ms: p189 removed from Q1
+00004968.848ms: p193 removed from Q1
+00004968.849ms: p194 removed from Q1
+00004968.851ms: p200 removed from Q1
+00004968.853ms: p201 removed from Q1
+00004968.907ms: p202 removed from Q1
+00004968.910ms: p204 removed from Q1
+00004968.912ms: p205 removed from Q1
+00004968.914ms: p207 removed from Q1
+00004968.915ms: p208 removed from Q1
+00004968.918ms: p210 removed from Q1
+00004968.920ms: p212 removed from Q1
+00004968.922ms: p214 removed from Q1
+00004968.923ms: p215 removed from Q1
+00004968.925ms: p217 removed from Q1
+00004968.927ms: p219 removed from Q1
+00004968.929ms: p221 removed from Q1
+00004968.931ms: p222 removed from Q1
+00004968.933ms: p224 removed from Q1
+00004968.935ms: p225 removed from Q1
+00004968.937ms: p226 removed from Q1
+00004968.939ms: p227 removed from Q1
+00004968.940ms: p228 removed from Q1
+00004968.942ms: p229 removed from Q1
+00004968.944ms: emulation ends
+
+Statistics:
+
+	average packet inter-arrival time =0.021613s
+	average packet service time =0.0387153s
+
+	average number of packets in Q1 =13.8192
+	average number of packets in Q2 =0.000248946
+	average number of packets at S1 =0.21801
+	average number of packets at S2 =0.202729
+
+	average time a packet spent in system =1.31038s
+	standard deviation for time spent in system =0.625547s
+
+	token drop probability =0
+	packet drop probability =0.541485

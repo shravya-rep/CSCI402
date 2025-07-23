@@ -1,0 +1,64 @@
+
+==== Packets ====
+p1: inter-arrival time should be 400.061ms
+    time in Q1 should be 400.170ms
+    time in Q2 should be 0.023ms
+    should request 1429ms of service time
+    time in S2 should be 1429.084ms
+    time in system should be 1829.355ms
+
+p2: inter-arrival time should be 400.064ms
+    time in Q1 should be 800.256ms
+    time in Q2 should be 0.019ms
+    should request 1429ms of service time
+    time in S1 should be 1429.084ms
+    time in system should be 2229.404ms
+
+p3: inter-arrival time should be 400.063ms
+    time in Q1 should be 1200.367ms
+    time in Q2 should be 0.018ms
+    should request 1429ms of service time
+    time in S2 should be 1429.076ms
+    time in system should be 2629.489ms
+
+p4: inter-arrival time should be 400.065ms
+    time in Q1 should be 1600.406ms
+    time in Q2 should be 0.018ms
+    should request 1429ms of service time
+    time in S1 should be 1429.090ms
+    time in system should be 3029.544ms
+
+p5: inter-arrival time should be 400.062ms
+    time in Q1 should be 2000.369ms
+    time in Q2 should be 0.018ms
+    should request 1429ms of service time
+    time in S2 should be 1429.078ms
+    time in system should be 3429.572ms
+
+p6: inter-arrival time should be 400.057ms
+    time in Q1 should be 2400.479ms
+    time in Q2 should be 0.017ms
+    should request 1429ms of service time
+    time in S1 should be 1429.076ms
+    time in system should be 3829.600ms
+
+
+
+
+
+
+
+
+
+
+==== Statistics ====
+average packet inter-arrival time = 0.400062916666667
+average packet service time = 1.42908133333333
+average number of packets in Q1 = 1.34861135700329
+average number of packets in Q2 = 1.81376137673798e-05
+average number of packets in S1 = 0.68814588163008
+average number of packets in S2 = 0.688143955511804
+average time a packet spent in system = 2.829494
+standard deviation for time spent in system = 0.683217101569968
+token drop probability = 0
+packet drop probability = 0

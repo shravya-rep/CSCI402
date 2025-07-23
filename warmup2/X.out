@@ -1,0 +1,33 @@
+Emulation Parameters:
+	number to arrive =1
+	lamda =1
+	mu =0.35
+	r =1.5
+	B =10
+	P =3
+00000000.000ms: emulation begins
+00000666.876ms: token t1 arrives, token bucket now has 1 token
+00001000.162ms: p1 arrives, needs 3 tokens, inter-arrival time =1000.162ms 
+00001000.194ms: p1 enters Q1
+00001333.634ms: token t2 arrives, token bucket now has 2 token
+00002000.354ms: token t3 arrives, token bucket now has 3 token
+00002000.370ms: p1 leaves Q1, time in Q1 = 1000.176ms, token bucket now has 0 token
+00002000.374ms: p1 enters Q2
+00002000.441ms: p1 leaves Q2, time in Q2 = 0.067ms
+00002000.449ms: p1 begins service at S2, requesting 2857.143ms of service
+00004857.647ms: p1 departs from S2, service time = 2857.198ms, time in system = 3857.485ms
+00004857.774ms: emulation ends
+
+Statistics:
+
+	average packet inter-arrival time =1.00016
+	average packet service time =2.8572
+
+	average number of packets in Q1 =0.205892
+	average number of packets in Q2 =1.37923e-05
+	average number of packets at S1 =0
+	average number of packets at S2 =0.58817
+	average time a packet spent in system =3.85749
+	standard deviation for time spent in system =0
+	token drop probability =0
+	packet drop probability =0
